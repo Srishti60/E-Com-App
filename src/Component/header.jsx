@@ -18,7 +18,7 @@ function Header() {
             <Nav.Link >Cart: {cart.items.length}</Nav.Link>
             <Nav.Link href="#link">Rs.{Total}</Nav.Link>
           </Nav>
-          <input type='text' onChange={(e)=> cart.setSearchValue(e.target.value)} placeholder='search...' />
+         
           </Navbar.Collapse>
       </Container>
     </Navbar>
